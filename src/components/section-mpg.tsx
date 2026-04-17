@@ -13,12 +13,12 @@ export function SectionMPG() {
   } = content.mpg;
 
   return (
-    <section id="mpg" className="bg-teal px-8 py-[90px] text-cream md:px-12">
+    <section id="mpg" className="bg-teal px-6 py-[70px] text-cream md:px-12 md:py-[90px]">
       <div className="mx-auto max-w-[680px] text-center">
         <div className="mb-6 text-[10px] font-semibold uppercase tracking-[0.25em] text-peach">
           {number} · {label}
         </div>
-        <h2 className="mb-6 font-serif text-[30px] font-medium leading-[1.25] tracking-[-0.01em]">
+        <h2 className="mb-6 font-serif text-[24px] font-medium leading-[1.25] tracking-[-0.01em] md:text-[30px]">
           {titlePrefix}
           <em className="italic text-peach">{titleEmphasis}</em>
           {titleSuffix}

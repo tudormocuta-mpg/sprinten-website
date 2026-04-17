@@ -6,12 +6,12 @@ export function SectionPrincipii() {
     content.principii;
 
   return (
-    <section id="principii" className="bg-cream-warm px-8 py-20 md:px-12">
+    <section id="principii" className="bg-cream-warm px-6 py-16 md:px-12 md:py-20">
       <div className="mx-auto max-w-[860px]">
         <div className="mb-5 text-[10px] font-semibold uppercase tracking-[0.25em] text-teal">
           {number} · {label}
         </div>
-        <h2 className="mb-12 max-w-[560px] font-serif text-[34px] font-medium leading-[1.15] tracking-[-0.02em] text-brown">
+        <h2 className="mb-10 max-w-[560px] font-serif text-[26px] font-medium leading-[1.15] tracking-[-0.02em] text-brown md:mb-12 md:text-[34px]">
           {titlePrefix}
           <em className="italic text-terracotta">{titleEmphasis}</em>
           {titleSuffix}

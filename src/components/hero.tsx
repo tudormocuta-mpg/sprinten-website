@@ -3,8 +3,8 @@ import { content } from "@/lib/content";
 
 export function Hero() {
   return (
-    <section className="grid min-h-[440px] md:grid-cols-[1.25fr_1fr]">
-      <div className="flex flex-col justify-between px-8 py-10 md:px-12 md:py-14">
+    <section className="grid min-h-[440px] grid-cols-1 md:grid-cols-[1.25fr_1fr]">
+      <div className="order-2 flex flex-col justify-between px-6 py-10 md:order-1 md:px-12 md:py-14">
         <div>
           <div className="mb-5 text-[10px] font-semibold uppercase tracking-[0.25em] text-teal">
             {content.brand.mpgTag}
@@ -32,7 +32,7 @@ export function Hero() {
         </div>
       </div>
 
-      <div className="relative min-h-[320px] bg-cream-warm">
+      <div className="relative order-1 aspect-[4/3] bg-cream-warm md:order-2 md:aspect-auto md:min-h-[320px]">
         <Image
           src="/hero.jpg"
           alt={content.hero.photoAlt}
