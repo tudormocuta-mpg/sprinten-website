@@ -13,32 +13,34 @@ export function SectionContact() {
   } = content.contact;
 
   return (
-    <section id="contact" className="px-6 py-[70px] md:px-12 md:py-[90px]">
-      <div className="mx-auto max-w-[680px] text-center">
-        <div className="mb-10 flex justify-center md:mb-12">
+    <section id="contact" className="px-6 py-20 md:px-12 md:py-24">
+      <div className="mx-auto grid max-w-[960px] grid-cols-1 items-center gap-10 md:grid-cols-2 md:gap-16">
+        <div className="flex justify-center md:justify-start">
           <Image
             src="/sprinten-logo-expanded.png"
             alt={content.brand.tagline}
-            width={140}
-            height={154}
-            className="h-auto w-[120px] md:w-[140px]"
+            width={180}
+            height={198}
+            className="h-auto w-[150px] md:w-[180px]"
           />
         </div>
-        <div className="mb-6 text-[10px] font-semibold uppercase tracking-[0.25em] text-teal">
-          {number} · {label}
+        <div className="text-center md:text-left">
+          <div className="mb-5 text-[10px] font-semibold uppercase tracking-[0.25em] text-teal">
+            {number} · {label}
+          </div>
+          <h2 className="mb-5 font-serif text-[28px] font-medium leading-[1.2] tracking-[-0.01em] text-brown md:text-[34px]">
+            {titlePrefix}
+            <em className="italic text-terracotta">{titleEmphasis}</em>
+            {titleSuffix}
+          </h2>
+          <p className="mb-6 text-[15px] leading-[1.7] text-brown-muted">{paragraph}</p>
+          <a
+            href={`mailto:${email}`}
+            className="inline-block break-all font-serif text-[22px] font-medium tracking-[-0.01em] text-terracotta hover:underline md:text-[26px]"
+          >
+            {email}
+          </a>
         </div>
-        <h2 className="mb-6 font-serif text-[26px] font-medium leading-[1.2] tracking-[-0.01em] text-brown md:text-[32px]">
-          {titlePrefix}
-          <em className="italic text-terracotta">{titleEmphasis}</em>
-          {titleSuffix}
-        </h2>
-        <p className="mb-8 text-[15px] leading-[1.7] text-brown-muted">{paragraph}</p>
-        <a
-          href={`mailto:${email}`}
-          className="inline-block break-all font-serif text-[22px] font-medium tracking-[-0.01em] text-terracotta hover:underline md:text-[28px]"
-        >
-          {email}
-        </a>
       </div>
     </section>
   );
