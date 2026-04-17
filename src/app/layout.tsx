@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     siteName: "SPRINTEN",
     locale: "ro_RO",
     type: "website",
-    images: [{ url: "/hero.jpg", width: 1200, height: 630, alt: "SPRINTEN" }],
+    images: [{ url: "/hero.png", width: 1587, height: 860, alt: "SPRINTEN" }],
   },
 };
 

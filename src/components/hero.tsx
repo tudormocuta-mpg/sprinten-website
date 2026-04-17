@@ -34,7 +34,7 @@ export function Hero() {
 
       <div className="relative order-1 aspect-[4/3] bg-cream-warm md:order-2 md:aspect-auto md:min-h-[320px]">
         <Image
-          src="/hero.jpg"
+          src="/hero.png"
           alt={content.hero.photoAlt}
           fill
           priority
