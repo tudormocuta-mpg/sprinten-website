@@ -29,7 +29,7 @@ export function Hero() {
           </a>
         </div>
 
-        <div className="relative order-1 aspect-[4/3] w-full overflow-hidden rounded-[20px] md:order-2">
+        <div className="relative order-1 aspect-[4/3] w-full overflow-hidden rounded-xl md:order-2">
           <Image
             src="/hero.png"
             alt={content.hero.photoAlt}

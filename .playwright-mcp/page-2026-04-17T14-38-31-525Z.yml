@@ -1,0 +1,80 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - navigation [ref=e3]:
+      - link "SPRINTEN" [ref=e4] [cursor=pointer]:
+        - /url: "#top"
+        - img "SPRINTEN" [ref=e5]
+      - generic [ref=e6]:
+        - link "Despre" [ref=e7] [cursor=pointer]:
+          - /url: "#despre"
+        - link "Principii" [ref=e8] [cursor=pointer]:
+          - /url: "#principii"
+        - link "MPG" [ref=e9] [cursor=pointer]:
+          - /url: "#mpg"
+        - link "Contact" [ref=e10] [cursor=pointer]:
+          - /url: "#contact"
+    - generic [ref=e12]:
+      - generic [ref=e13]:
+        - generic [ref=e14]: UN PROIECT MPG
+        - heading "Sprinten tu... sprinteni și ei." [level=1] [ref=e15]:
+          - text: Sprinten tu...
+          - emphasis [ref=e16]: sprinteni și ei
+          - text: .
+        - paragraph [ref=e17]: Când alergi sau pedalezi — o faci și pentru copiii care nu pot încă. Sportul ca instrument de incluziune.
+        - link "Descoperă" [ref=e18] [cursor=pointer]:
+          - /url: "#despre"
+      - img "Moment de bucurie prin mișcare — copil susținut cu brațele întinse" [ref=e20]
+    - generic [ref=e22]:
+      - generic [ref=e23]: 01 · Despre
+      - heading "Un proiect care trăiește prin mișcare." [level=2] [ref=e24]:
+        - text: Un proiect care trăiește
+        - emphasis [ref=e25]: prin mișcare
+        - text: .
+      - paragraph [ref=e26]: SPRINTEN este un proiect dedicat copiilor cu dizabilități locomotorii din medii defavorizate. Credem că sportul amator este o punte — între oameni, între lumi, între ce e și ce poate deveni.
+      - paragraph [ref=e27]: Cei care alergăm sau pedalăm nu facem mișcare doar pentru noi. O facem cu gândul la copiii care, într-o zi, ar trebui să poată face la fel.
+    - generic [ref=e29]:
+      - generic [ref=e30]: 02 · Principii
+      - heading "Trei idei care ne țin în mișcare." [level=2] [ref=e31]:
+        - text: Trei idei care ne
+        - emphasis [ref=e32]: țin în mișcare
+        - text: .
+      - generic [ref=e33]:
+        - generic [ref=e34]:
+          - img [ref=e36]
+          - heading "Incluziune" [level=3] [ref=e41]
+          - paragraph [ref=e42]: Sportul șterge diferențele. Oricine poate face parte dintr-o comunitate activă — indiferent de punctul de pornire.
+        - generic [ref=e43]:
+          - img [ref=e45]
+          - heading "Comunitate" [level=3] [ref=e47]
+          - paragraph [ref=e48]: Mișcarea e mai puternică împreună. Fiecare cursă amatori e o ocazie să fim unii cu ceilalți.
+        - generic [ref=e49]:
+          - img [ref=e51]
+          - heading "Bucurie" [level=3] [ref=e54]
+          - paragraph [ref=e55]: Fiecare pas contează. Nu distanța definește participarea, ci intenția din spatele ei.
+    - generic [ref=e57]:
+      - generic [ref=e58]: 03 · Legătura cu MPG
+      - heading "Un proiect născut din evenimente sportive." [level=2] [ref=e59]:
+        - text: Un proiect născut din
+        - emphasis [ref=e60]: evenimente sportive
+        - text: .
+      - paragraph [ref=e61]: SPRINTEN este un proiect conex al evenimentelor sportive organizate de echipa MPG. Credem în puterea sportului amator de a genera schimbare reală — și asta e felul nostru de a contribui.
+      - link "Vizitează MPG" [ref=e62] [cursor=pointer]:
+        - /url: https://mpg.com.ro
+    - generic [ref=e64]:
+      - img "Sprinten tu... sprinteni și ei" [ref=e66]
+      - generic [ref=e67]:
+        - generic [ref=e68]: 04 · Contact
+        - heading "Ne scrii?" [level=2] [ref=e69]:
+          - text: Ne
+          - emphasis [ref=e70]: scrii
+          - text: "?"
+        - paragraph [ref=e71]: Pentru orice întrebare legată de SPRINTEN sau de evenimentele noastre.
+        - link "events@mpg.com.ro" [ref=e72] [cursor=pointer]:
+          - /url: mailto:events@mpg.com.ro
+    - generic [ref=e73]:
+      - generic [ref=e74]: © 2026 SPRINTEN
+      - generic [ref=e75]:
+        - text: un proiect
+        - link "MPG" [ref=e76] [cursor=pointer]:
+          - /url: https://mpg.com.ro
+  - alert [ref=e77]
