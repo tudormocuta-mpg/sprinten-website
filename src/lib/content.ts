@@ -6,11 +6,13 @@ export const content = {
   },
   nav: {
     items: [
-      { label: "Despre", href: "#despre" },
+      { label: "Despre proiect", href: "#despre" },
       { label: "Principii", href: "#principii" },
       { label: "MPG", href: "#mpg" },
       { label: "Contact", href: "#contact" },
     ],
+    ctaLabel: "Scrie-ne",
+    ctaHref: "#contact",
   },
   hero: {
     titlePrefix: "Sprinten tu...",

@@ -8,14 +8,17 @@ import { Footer } from "@/components/footer";
 
 export default function Home() {
   return (
-    <main id="top" className="min-h-screen bg-cream text-brown">
+    <div id="top" className="relative min-h-screen overflow-hidden bg-cream text-brown">
+      <div className="grain-overlay fixed inset-0 z-[100]" />
       <Nav />
-      <Hero />
-      <SectionDespre />
-      <SectionPrincipii />
-      <SectionMPG />
-      <SectionContact />
+      <main>
+        <Hero />
+        <SectionDespre />
+        <SectionPrincipii />
+        <SectionMPG />
+        <SectionContact />
+      </main>
       <Footer />
-    </main>
+    </div>
   );
 }

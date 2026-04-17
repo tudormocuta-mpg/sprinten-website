@@ -1,3 +1,4 @@
+import { ChevronRight } from "lucide-react";
 import { content } from "@/lib/content";
 
 export function SectionDespre() {
@@ -5,24 +6,30 @@ export function SectionDespre() {
     content.despre;
 
   return (
-    <section id="despre" className="px-6 py-20 md:px-12 md:py-24">
-      <div className="mx-auto max-w-[720px] text-center">
-        <div className="mb-5 text-[10px] font-semibold uppercase tracking-[0.25em] text-teal">
-          {number} · {label}
-        </div>
-        <h2 className="mb-8 font-serif text-[28px] font-semibold leading-[1.15] tracking-[-0.02em] text-brown md:text-[36px]">
-          {titlePrefix}
-          <em className="italic text-terracotta">{titleEmphasis}</em>
-          {titleSuffix}
+    <section id="despre" className="relative bg-cream px-6 py-24 md:px-12 md:py-32">
+      <div className="mx-auto max-w-[860px] text-center">
+        <h2 className="mb-4 text-[12px] font-bold uppercase tracking-[0.3em] text-terracotta">
+          {number} . {label.toUpperCase()}
         </h2>
-        {paragraphs.map((p, i) => (
-          <p
-            key={i}
-            className="mb-4 text-[15px] leading-[1.75] text-brown-muted last:mb-0 md:text-[16px]"
+        <h3 className="mb-10 font-sans text-[36px] font-extrabold leading-tight tracking-tight text-forest md:text-[56px]">
+          {titlePrefix}
+          <span className="italic text-teal">{titleEmphasis}</span>
+          {titleSuffix}
+        </h3>
+        <div className="space-y-6 text-[16px] leading-relaxed text-brown-muted md:text-[18px]">
+          {paragraphs.map((p, i) => (
+            <p key={i}>{p}</p>
+          ))}
+        </div>
+        <div className="mt-12">
+          <a
+            href="#principii"
+            className="inline-flex items-center font-bold uppercase tracking-[0.2em] text-forest text-[12px] transition-transform hover:translate-x-2"
           >
-            {p}
-          </p>
-        ))}
+            Vezi principiile noastre
+            <ChevronRight size={20} className="ml-2" />
+          </a>
+        </div>
       </div>
     </section>
   );

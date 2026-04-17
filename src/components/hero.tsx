@@ -1,44 +1,67 @@
 import Image from "next/image";
+import { ArrowRight } from "lucide-react";
 import { content } from "@/lib/content";
 
 export function Hero() {
   return (
-    <section className="bg-forest text-cream">
-      <div className="mx-auto grid max-w-[1180px] grid-cols-1 items-center gap-10 px-6 py-12 md:grid-cols-[1.15fr_1fr] md:gap-12 md:px-12 md:py-20">
-        <div className="order-2 md:order-1">
-          <div className="mb-5 text-[10px] font-semibold uppercase tracking-[0.25em] text-peach">
-            {content.brand.mpgTag}
-          </div>
+    <section className="hero-gradient relative overflow-hidden px-6 pb-24 pt-16 text-cream md:px-12 md:pb-40 md:pt-24">
+      <div className="absolute -left-24 -top-24 h-96 w-96 rounded-full bg-teal opacity-20 blur-[120px]" />
 
-          <h1 className="font-serif text-[36px] font-semibold leading-[1.05] tracking-[-0.02em] text-cream md:text-[52px]">
+      <div className="relative z-10 mx-auto grid max-w-[1180px] grid-cols-1 items-center gap-16 lg:grid-cols-2">
+        <div className="max-w-2xl">
+          <span className="mb-6 inline-block text-[11px] font-bold uppercase tracking-[0.2em] text-peach">
+            {content.brand.mpgTag}
+          </span>
+          <h1 className="mb-8 font-sans text-[44px] font-extrabold leading-[1.05] tracking-tight md:text-[68px]">
             {content.hero.titlePrefix}
             <br />
-            <em className="italic text-peach">{content.hero.titleEmphasis}</em>
+            <span className="italic text-peach">{content.hero.titleEmphasis}</span>
             {content.hero.titleSuffix}
           </h1>
-
-          <p className="mt-6 max-w-[460px] text-[15px] leading-[1.65] text-cream/75">
+          <p className="mb-10 max-w-lg text-[16px] leading-relaxed text-cream/80 md:text-[18px]">
             {content.hero.description}
           </p>
-
           <a
             href={content.hero.ctaHref}
-            className="mt-7 inline-block rounded-full bg-terracotta px-7 py-3 text-[11px] font-semibold uppercase tracking-[0.2em] text-cream transition hover:bg-terracotta/90"
+            className="inline-flex items-center justify-center gap-2 rounded-full bg-terracotta px-9 py-4 text-[12px] font-bold uppercase tracking-[0.2em] text-cream shadow-lg shadow-black/10 transition-all hover:-translate-y-1 hover:bg-terracotta/85"
           >
             {content.hero.ctaLabel}
+            <ArrowRight size={16} />
           </a>
         </div>
 
-        <div className="relative order-1 aspect-[4/3] w-full overflow-hidden rounded-xl md:order-2">
-          <Image
-            src="/hero.png"
-            alt={content.hero.photoAlt}
-            fill
-            priority
-            sizes="(max-width: 768px) 100vw, 45vw"
-            className="object-cover"
-          />
+        <div className="group relative">
+          <div
+            className="organic-image-frame relative z-20 overflow-hidden shadow-2xl transition-transform duration-500 group-hover:scale-[1.02]"
+            style={{ aspectRatio: "1 / 1" }}
+          >
+            <Image
+              src="/hero.png"
+              alt={content.hero.photoAlt}
+              fill
+              priority
+              sizes="(max-width: 1024px) 100vw, 50vw"
+              className="object-cover"
+            />
+          </div>
+          <div className="organic-shape-1 absolute -bottom-10 -right-10 z-10 h-48 w-48 bg-terracotta opacity-80 blur-[2px]" />
+          <div className="organic-shape-1 absolute -left-12 top-1/2 z-10 h-32 w-32 -translate-y-1/2 bg-teal opacity-60 blur-[1px]" />
         </div>
+      </div>
+
+      <div className="absolute bottom-0 left-0 w-full overflow-hidden leading-[0]">
+        <svg
+          className="relative block h-[80px] w-[calc(100%+1.3px)]"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1200 120"
+          preserveAspectRatio="none"
+          aria-hidden
+        >
+          <path
+            d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V120H0V95.8C58.47,105.15,116.32,109.58,175,109.11,234.34,108.64,286.42,88.72,321.39,56.44Z"
+            fill="#FDF6EC"
+          />
+        </svg>
       </div>
     </section>
   );
