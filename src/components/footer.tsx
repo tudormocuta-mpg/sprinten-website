@@ -4,7 +4,7 @@ export function Footer() {
   const { copyright, attributionPrefix, attributionLinkText, attributionLinkHref } =
     content.footer;
   return (
-    <footer className="flex flex-col items-center gap-2 bg-brown px-6 py-6 text-[12px] text-cream/60 md:flex-row md:justify-between md:px-10 md:py-7">
+    <footer className="flex flex-col items-center gap-2 bg-forest px-6 py-6 text-[12px] text-cream/60 md:flex-row md:justify-between md:px-10 md:py-7">
       <div>{copyright}</div>
       <div>
         {attributionPrefix}

@@ -44,3 +44,5 @@ next-env.d.ts
 .superpowers/
 .claude/
 
+stitch.zip
+.stitch-reference/

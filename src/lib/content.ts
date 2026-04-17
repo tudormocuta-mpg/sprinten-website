@@ -18,6 +18,8 @@ export const content = {
     titleSuffix: ".",
     description:
       "Când alergi sau pedalezi — o faci și pentru copiii care nu pot încă. Sportul ca instrument de incluziune.",
+    ctaLabel: "Descoperă",
+    ctaHref: "#despre",
     scrollHint: "scroll pentru poveste",
     photoAlt: "Moment de bucurie prin mișcare — copil susținut cu brațele întinse",
   },
@@ -70,6 +72,7 @@ export const content = {
     titleSuffix: ".",
     paragraph:
       "SPRINTEN este un proiect conex al evenimentelor sportive organizate de echipa MPG. Credem în puterea sportului amator de a genera schimbare reală — și asta e felul nostru de a contribui.",
+    ctaLabel: "Vizitează MPG",
     linkText: "mpg.com.ro",
     linkHref: "https://mpg.com.ro",
   },
