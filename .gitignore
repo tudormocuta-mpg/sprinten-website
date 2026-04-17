@@ -46,3 +46,5 @@ next-env.d.ts
 
 stitch.zip
 .stitch-reference/
+.playwright-mcp/
+sprinten-live-*.png
