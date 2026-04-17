@@ -10,12 +10,12 @@ export function Hero() {
             {content.brand.mpgTag}
           </div>
 
-          <div className="w-full max-w-[440px]">
+          <div className="w-full max-w-[280px]">
             <Image
-              src="/sprinten-logo-expanded.svg"
+              src="/sprinten-logo-expanded.png"
               alt={content.brand.tagline}
-              width={440}
-              height={248}
+              width={280}
+              height={307}
               priority
               className="h-auto w-full"
             />
