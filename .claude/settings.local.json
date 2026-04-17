@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:www.sprinten.org)",
+      "Bash(\"C:\\\\Users\\\\tudor\\\\.claude\\\\plugins\\\\cache\\\\claude-plugins-official\\\\superpowers\\\\5.0.7\\\\skills\\\\brainstorming\\\\scripts\\\\start-server.sh\" --project-dir \"C:\\\\Users\\\\tudor\\\\Projects\\\\sprinten\")",
+      "Bash(\"C:\\\\Users\\\\tudor\\\\.claude\\\\plugins\\\\cache\\\\claude-plugins-official\\\\superpowers\\\\5.0.7\\\\skills\\\\brainstorming\\\\scripts\\\\start-server.sh\" --help)",
+      "Bash(netsh interface *)",
+      "Bash(BRAINSTORM_PORT=57231 \"C:\\\\Users\\\\tudor\\\\.claude\\\\plugins\\\\cache\\\\claude-plugins-official\\\\superpowers\\\\5.0.7\\\\skills\\\\brainstorming\\\\scripts\\\\start-server.sh\" --project-dir \"C:\\\\Users\\\\tudor\\\\Projects\\\\sprinten\")",
+      "Bash(grep -v \"^$\")",
+      "Bash(npx create-next-app@latest . --typescript --tailwind --eslint --app --src-dir --import-alias \"@/*\" --use-npm --no-git --yes)",
+      "Bash(mv .superpowers ../sprinten-superpowers-tmp)",
+      "Bash(mv .claude ../sprinten-claude-tmp)",
+      "Bash(mv docs *)"
+    ]
+  }
+}
