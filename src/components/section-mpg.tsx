@@ -18,7 +18,7 @@ export function SectionMPG() {
         <div className="mb-6 text-[10px] font-semibold uppercase tracking-[0.25em] text-peach">
           {number} · {label}
         </div>
-        <h2 className="mb-6 font-serif text-[26px] font-medium leading-[1.2] tracking-[-0.01em] md:text-[34px]">
+        <h2 className="mb-6 font-serif text-[26px] font-semibold leading-[1.2] tracking-[-0.01em] md:text-[34px]">
           {titlePrefix}
           <em className="italic text-peach">{titleEmphasis}</em>
           {titleSuffix}

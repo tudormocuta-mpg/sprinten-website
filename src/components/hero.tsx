@@ -10,7 +10,7 @@ export function Hero() {
             {content.brand.mpgTag}
           </div>
 
-          <h1 className="font-serif text-[36px] font-medium leading-[1.05] tracking-[-0.02em] text-cream md:text-[52px]">
+          <h1 className="font-serif text-[36px] font-semibold leading-[1.05] tracking-[-0.02em] text-cream md:text-[52px]">
             {content.hero.titlePrefix}
             <br />
             <em className="italic text-peach">{content.hero.titleEmphasis}</em>

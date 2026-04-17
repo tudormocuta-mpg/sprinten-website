@@ -37,7 +37,7 @@ export function SectionPrincipii() {
         <div className="mb-5 text-[10px] font-semibold uppercase tracking-[0.25em] text-teal">
           {number} · {label}
         </div>
-        <h2 className="mx-auto mb-14 max-w-[580px] font-serif text-[28px] font-medium leading-[1.15] tracking-[-0.02em] text-brown md:text-[36px]">
+        <h2 className="mx-auto mb-14 max-w-[580px] font-serif text-[28px] font-semibold leading-[1.15] tracking-[-0.02em] text-brown md:text-[36px]">
           {titlePrefix}
           <em className="italic text-terracotta">{titleEmphasis}</em>
           {titleSuffix}

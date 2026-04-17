@@ -28,7 +28,7 @@ export function SectionContact() {
           <div className="mb-5 text-[10px] font-semibold uppercase tracking-[0.25em] text-teal">
             {number} · {label}
           </div>
-          <h2 className="mb-5 font-serif text-[28px] font-medium leading-[1.2] tracking-[-0.01em] text-brown md:text-[34px]">
+          <h2 className="mb-5 font-serif text-[28px] font-semibold leading-[1.2] tracking-[-0.01em] text-brown md:text-[34px]">
             {titlePrefix}
             <em className="italic text-terracotta">{titleEmphasis}</em>
             {titleSuffix}
