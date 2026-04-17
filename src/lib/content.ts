@@ -19,7 +19,7 @@ export const content = {
     titleEmphasis: "sprinteni și ei",
     titleSuffix: ".",
     description:
-      "Când alergi sau pedalezi — o faci și pentru copiii care nu pot încă. Sportul ca instrument de incluziune.",
+      "Când joci tenis sau pedalezi — o faci și pentru copiii care nu pot încă. Sportul ca instrument de incluziune.",
     ctaLabel: "Descoperă",
     ctaHref: "#despre",
     scrollHint: "scroll pentru poveste",
@@ -33,7 +33,7 @@ export const content = {
     titleSuffix: ".",
     paragraphs: [
       "SPRINTEN este un proiect dedicat copiilor cu dizabilități locomotorii din medii defavorizate. Credem că sportul amator este o punte — între oameni, între lumi, între ce e și ce poate deveni.",
-      "Cei care alergăm sau pedalăm nu facem mișcare doar pentru noi. O facem cu gândul la copiii care, într-o zi, ar trebui să poată face la fel.",
+      "Cei care jucăm tenis sau pedalăm nu facem mișcare doar pentru noi. O facem cu gândul la copiii care, într-o zi, ar trebui să poată face la fel.",
     ],
   },
   principii: {
@@ -55,7 +55,7 @@ export const content = {
         accent: "teal" as const,
         title: "Comunitate",
         description:
-          "Mișcarea e mai puternică împreună. Fiecare cursă amatori e o ocazie să fim unii cu ceilalți.",
+          "Mișcarea e mai puternică împreună. Fiecare cursă de amatori e o ocazie să fim unii cu ceilalți.",
       },
       {
         number: "03",
@@ -68,12 +68,12 @@ export const content = {
   },
   mpg: {
     number: "03",
-    label: "Legătura cu MPG",
-    titlePrefix: "Un proiect născut din ",
+    label: "MPG Events",
+    titlePrefix: "Născut din pasiunea pentru ",
     titleEmphasis: "evenimente sportive",
     titleSuffix: ".",
     paragraph:
-      "SPRINTEN este un proiect conex al evenimentelor sportive organizate de echipa MPG. Credem în puterea sportului amator de a genera schimbare reală — și asta e felul nostru de a contribui.",
+      "SPRINTEN prinde viață prin evenimentele sportive organizate de echipa MPG. Credem în puterea sportului amator de a genera schimbare reală — iar asta e felul nostru de a contribui.",
     ctaLabel: "Vizitează MPG",
     linkText: "mpg.com.ro",
     linkHref: "https://mpg.com.ro",
@@ -81,9 +81,9 @@ export const content = {
   contact: {
     number: "04",
     label: "Contact",
-    titlePrefix: "Ne ",
-    titleEmphasis: "scrii",
-    titleSuffix: "?",
+    titlePrefix: "Hai să ",
+    titleEmphasis: "vorbim",
+    titleSuffix: ".",
     paragraph:
       "Pentru orice întrebare legată de SPRINTEN sau de evenimentele noastre.",
     email: "events@mpg.com.ro",
