@@ -49,16 +49,16 @@ export function Hero() {
         </div>
       </div>
 
-      <div className="absolute bottom-0 left-0 w-full overflow-hidden leading-[0]">
+      <div className="absolute -bottom-px left-0 w-full overflow-hidden leading-[0]">
         <svg
-          className="relative block h-[80px] w-[calc(100%+1.3px)]"
+          className="relative block h-[90px] w-full"
           xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 1200 120"
+          viewBox="0 0 1440 120"
           preserveAspectRatio="none"
           aria-hidden
         >
           <path
-            d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V120H0V95.8C58.47,105.15,116.32,109.58,175,109.11,234.34,108.64,286.42,88.72,321.39,56.44Z"
+            d="M0,64 C180,96 360,32 540,56 C720,80 900,104 1080,80 C1260,56 1350,40 1440,60 L1440,120 L0,120 Z"
             fill="#FDF6EC"
           />
         </svg>
