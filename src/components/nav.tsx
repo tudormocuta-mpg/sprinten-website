@@ -8,7 +8,7 @@ export function Nav() {
         <Image
           src="/sprinten-logo.svg"
           alt={content.brand.name}
-          width={56}
+          width={62}
           height={56}
           priority
         />
