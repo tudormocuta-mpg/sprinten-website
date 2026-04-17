@@ -6,20 +6,16 @@ export function Hero() {
     <section className="grid min-h-[440px] grid-cols-1 md:grid-cols-[1.25fr_1fr]">
       <div className="order-2 flex flex-col justify-between px-6 py-10 md:order-1 md:px-12 md:py-14">
         <div>
-          <div className="mb-5 text-[10px] font-semibold uppercase tracking-[0.25em] text-teal">
+          <div className="mb-6 text-[10px] font-semibold uppercase tracking-[0.25em] text-teal">
             {content.brand.mpgTag}
           </div>
 
-          <div className="w-full max-w-[280px]">
-            <Image
-              src="/sprinten-logo-expanded.png"
-              alt={content.brand.tagline}
-              width={280}
-              height={307}
-              priority
-              className="h-auto w-full"
-            />
-          </div>
+          <h1 className="font-serif text-[40px] font-medium leading-[1.03] tracking-[-0.02em] text-brown md:text-[56px]">
+            {content.hero.titlePrefix}
+            <br />
+            <em className="italic text-terracotta">{content.hero.titleEmphasis}</em>
+            {content.hero.titleSuffix}
+          </h1>
 
           <p className="mt-6 max-w-[440px] text-[15px] leading-[1.6] text-brown-muted">
             {content.hero.description}

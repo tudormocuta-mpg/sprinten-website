@@ -13,6 +13,9 @@ export const content = {
     ],
   },
   hero: {
+    titlePrefix: "Sprinten tu...",
+    titleEmphasis: "sprinteni și ei",
+    titleSuffix: ".",
     description:
       "Când alergi sau pedalezi — o faci și pentru copiii care nu pot încă. Sportul ca instrument de incluziune.",
     scrollHint: "scroll pentru poveste",

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { content } from "@/lib/content";
 
 export function SectionContact() {
@@ -14,6 +15,15 @@ export function SectionContact() {
   return (
     <section id="contact" className="px-6 py-[70px] md:px-12 md:py-[90px]">
       <div className="mx-auto max-w-[680px] text-center">
+        <div className="mb-10 flex justify-center md:mb-12">
+          <Image
+            src="/sprinten-logo-expanded.png"
+            alt={content.brand.tagline}
+            width={140}
+            height={154}
+            className="h-auto w-[120px] md:w-[140px]"
+          />
+        </div>
         <div className="mb-6 text-[10px] font-semibold uppercase tracking-[0.25em] text-teal">
           {number} · {label}
         </div>
